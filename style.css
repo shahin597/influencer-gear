@@ -1,0 +1,44 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@500&display=swap');
+
+/* common styles or utilities */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
+}
+
+header {
+    font-size: 24px;
+}
+
+.container {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 156px;
+    align-items: center;
+
+
+}
+
+.link-button {
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: white;
+    font-weight: 700;
+    padding: 10px 24px;
+    border-radius: 41px;
+    width: 196px;
+}
+
+.influencer-journey {
+    width: 582px;
+    height: 270px;
+
+}
+
+.influencer-journey img {
+    width: 100%;
+
+
+}
