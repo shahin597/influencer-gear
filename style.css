@@ -7,14 +7,21 @@ body {
     background-color: #FFFFFF;
 }
 
-header {
+header h3 {
+
     font-size: 24px;
+    margin-left: 120px;
+    margin-top: 87px;
+    margin-bottom: 145px;
+
+
 }
 
 .container {
     display: flex;
     max-width: 1440px;
-    margin: 0 auto;
+    max-height: 1440px;
+    margin: auto;
     padding: 0 156px;
     align-items: center;
 
@@ -31,9 +38,14 @@ header {
     width: 196px;
 }
 
+/* arrow icon */
+.fa-arrow-right {
+    margin-left: 5px;
+}
+
 .influencer-journey {
     width: 582px;
-    height: 270px;
+
 
 }
 
@@ -41,4 +53,8 @@ header {
     width: 100%;
 
 
+}
+
+.gadget-heading h2 {
+    text-align: center;
 }
