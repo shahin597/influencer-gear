@@ -10,7 +10,7 @@ body {
 header h3 {
 
     font-size: 24px;
-    margin-left: 120px;
+    margin-left: 0px;
     margin-top: 87px;
     margin-bottom: 145px;
 
@@ -22,8 +22,9 @@ header h3 {
     max-width: 1440px;
     max-height: 1440px;
     margin: auto;
-    padding: 0 156px;
+
     align-items: center;
+    width: 100%;
 
 
 }
@@ -51,10 +52,12 @@ header h3 {
 
 .link-button {
     display: inline-block;
+
+
 }
 
 .link-button:hover {
-    transform: scale(1.05);
+    transform: scale(1.09);
     transition: transform 1s ease-in-out;
 }
 
@@ -79,15 +82,50 @@ header h3 {
     grid-row-gap: 26px;
 }
 
+/* product-rating */
+
+.fa-star {
+    font-size: 12px;
+}
+
+.fa-star.filled {
+
+    color: #FFC014;
+}
+
+
+
 .gadgets .gadget-img {
     width: 300px;
     height: 256px;
 }
 
-.see-more {
+.see-more a {
+    text-decoration: none;
     display: flex;
     justify-content: flex-end;
+    color: rgba(224, 44, 109, 0.87);
+    align-items: center;
 
+}
+
+.category-container {
+
+    max-width: 1440px;
+    max-height: 1440px;
+    margin: auto;
+    padding: 0 156px;
+
+
+}
+
+.item-category {
+    display: flex;
+    align-items: center;
+}
+
+ul a {
+    text-decoration: none;
 }
 
 footer {
