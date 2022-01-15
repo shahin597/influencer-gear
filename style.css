@@ -7,6 +7,7 @@ body {
     background-color: #FFFFFF;
 }
 
+/*---header-section */
 header h3 {
 
     font-size: 24px;
@@ -17,14 +18,19 @@ header h3 {
 
 }
 
+/* ---------- 
+journey as influencer --------*/
+
 .container {
     display: flex;
     max-width: 1440px;
     max-height: 1440px;
-    margin: auto;
+    margin: 0 auto;
 
     align-items: center;
     width: 100%;
+    justify-content: center;
+
 
 
 }
@@ -61,11 +67,14 @@ header h3 {
     transition: transform 1s ease-in-out;
 }
 
+
 .influencer-journey img {
     width: 100%;
 
 
 }
+
+/* popular collection */
 
 .collection {
     max-width: 1080px;
@@ -76,6 +85,7 @@ header h3 {
     text-align: center;
 }
 
+/* gadget-item-distributing */
 .gadgets {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -109,6 +119,9 @@ header h3 {
 
 }
 
+/*---------- 
+product-category---------- */
+
 .category-container {
 
     max-width: 1440px;
@@ -128,6 +141,9 @@ ul a {
     text-decoration: none;
 }
 
+/*-----------
+ website-footer--------- */
+
 footer {
     background-color: black;
     text-align: center;
@@ -143,6 +159,27 @@ footer {
     ;
 }
 
+/* social-media icon */
 .icon a i::before {
     color: #FFFFFF;
+}
+
+/* Media Queries */
+
+
+/* tablet devices */
+@media only screen and (min-width:577px) and (max-width:768px) {
+    .container .collection .category-container {
+        width: 100%;
+    }
+
+    .influencer-journey.influencer {
+
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .all-gadget .item-category {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 }
