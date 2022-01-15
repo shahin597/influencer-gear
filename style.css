@@ -35,7 +35,7 @@ header h3 {
     font-weight: 700;
     padding: 10px 24px;
     border-radius: 41px;
-    width: 196px;
+
 }
 
 /* arrow icon */
@@ -47,6 +47,15 @@ header h3 {
     width: 582px;
 
 
+}
+
+.link-button {
+    display: inline-block;
+}
+
+.link-button:hover {
+    transform: scale(1.05);
+    transition: transform 1s ease-in-out;
 }
 
 .influencer-journey img {
