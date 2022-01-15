@@ -168,18 +168,61 @@ footer {
 
 
 /* tablet devices */
-@media only screen and (min-width:577px) and (max-width:768px) {
+@media (max-width:768px) {
     .container .collection .category-container {
         width: 100%;
     }
 
-    .influencer-journey.influencer {
+    .container {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .influencer-journey .influencer {
 
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .all-gadget .item-category {
+    .all-gadget .gadgets {
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .category-container {
+
+        padding: 0 30px;
+    }
+
+    .category-container .item-category {
+
+        display: block;
+    }
+
+    .influencer-journey {
+        width: 100%;
+    }
+
+    header h3 {
+
+        margin-top: 50px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+}
+
+/* Mobile-view */
+@media (max-width:576px) {
+    .all-gadget .gadgets {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 0px;
+    }
+
+    .gadget-img {
+        width: 100% !important;
+        overflow: hidden;
+    }
+
+    .all-gadget img {
+        width: 100%;
+    }
 }
